@@ -13,7 +13,10 @@ export default {
         designColor: "#5552FF",
       },
       backgroundImage:{
-        hero:"url('./assets/Union.png')"
+        hero:"url('./assets/Union.png')",
+        people:"url('./assets/people.jpg')",
+        people2:"url('./assets/people2.jpg')"
+
 
       }
     },
