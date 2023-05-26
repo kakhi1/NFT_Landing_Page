@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        text: ['Josefin Sans', "sans-serif"],
+      },
+      colors:{
+        designColor: "#5552FF",
+      },
+      backgroundImage:{
+        hero:"url('./assets/Union.png')"
+
+      }
+    },
   },
   plugins: [],
 }
