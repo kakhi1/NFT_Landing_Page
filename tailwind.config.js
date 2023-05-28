@@ -11,8 +11,6 @@ export default {
       },
       colors:{
         designColor: "#5552FF",
-        titleRoundBg:
-        "linear-gradient(288deg, rgba(12,240,211,1) 31%, rgba(0,255,4,0.9920343137254902) 62%)",
       },
       backgroundImage:{
         hero:"url('./assets/Union.png')",
