@@ -52,20 +52,20 @@ const Artsec = () => {
             </span>
           </div>
         </div>
-        <div className="w-[80%] h-full items-center justify-center md:flex-row flex-col  md:gap-16 gap-5 flex font-text">
-          <div className="md:w-[25%] w-[60%] md:h-[60%] h-[100%] rounded-lg z-30 items-start p-3 md:p-3 lg:p-7 bg-white flex-col">
+        <div className="w-[80%] items-center justify-center md:flex-row flex-col  md:gap-16 gap-5 flex font-text">
+          <div className="md:w-[25%] w-[60%] md:h-[60%] h-[90%] rounded-lg z-30 items-start p-3 md:p-3 lg:p-7 bg-white flex-col">
             <div className="w-[73px] h-[72px] rounded-full text-left bg-[#EFE4FC] flex justify-center items-center">
               <img src={icon} alt="icon" />
             </div>
-            <h1 className="text-left font-bold text-xl  md:mt-5 lg:mt-7">
+            <h1 className="text-left font-bold text-xl  md:mt-5 lg:mt-7 h-[10%]">
               Create{" "}
             </h1>
-            <span className="text-left flex  my-3 lg:my-7 text-xs font-medium">
+            <span className="text-left flex  my-3 lg:my-7 text-xs font-medium h-[20%]">
               Click My Collections and set up your collection. Add a
               description, profile & banner images, and set a secondary sales
               fee.
             </span>
-            <button className="rounded-md w-[60%] h-[15%] text-white bg-[#6052FF] flex items-center justify-center">
+            <button className="rounded-md w-[60%] h-[35px] text-white bg-[#6052FF] flex items-center justify-center">
               Create
             </button>
           </div>
@@ -73,14 +73,14 @@ const Artsec = () => {
             <div className="w-[73px] h-[72px] rounded-full text-left bg-[#DDDAFF] flex justify-center items-center">
               <img src={icon2} alt="icon2" />
             </div>
-            <h1 className="text-left font-bold text-xl  md:mt-5 lg:mt-8">
+            <h1 className="text-left font-bold text-xl  md:mt-5 lg:mt-8 h-[10%]">
               Instant payment
             </h1>
-            <span className="text-left flex  my-3 lg:my-8 text-xs font-medium">
+            <span className="text-left flex  my-3 lg:my-8 text-xs font-medium h-[20%]">
               Put NFTs on sale or on auction. Get paid for your digital
               collectables
             </span>
-            <button className="rounded-md w-[60%] h-[15%] text-white bg-[#6052FF] flex items-center justify-center">
+            <button className="rounded-md w-[60%] h-[35px] text-white bg-[#6052FF] flex items-center justify-center">
               Sale now
             </button>
           </div>
@@ -88,14 +88,14 @@ const Artsec = () => {
             <div className="w-[73px] h-[72px] rounded-full text-left bg-[#FFDFD8] flex justify-center items-center">
               <img src={icon3} alt="icon3" />
             </div>
-            <h1 className="text-left font-bold text-xl  md:mt-5 lg:mt-8 w-full">
+            <h1 className="text-left font-bold text-xl  md:mt-5 lg:mt-8 w-full h-[10%]">
               Set up your wallet
             </h1>
-            <span className="text-left flex  my-3 lg:my-8 text-xs font-medium">
+            <span className="text-left flex  my-3 lg:my-8 text-xs font-medium h-[20%]">
               Once you’ve set up your wallet of choice, connect it by clicking
               the wallet icon in the top right corner.
             </span>
-            <button className="rounded-md w-[60%] h-[15%] text-white bg-[#6052FF] flex items-center justify-center">
+            <button className="rounded-md w-[60%] h-[35px] text-white bg-[#6052FF] flex items-center justify-center">
               Connect
             </button>
           </div>

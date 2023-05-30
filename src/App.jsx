@@ -4,6 +4,7 @@ import Artsec from './components/Artsec'
 import Header from './components/Header'
 import Home from './components/Home'
 import Homefooter from './components/Homefooter'
+import Mint from './components/mint'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
      <Home/>
      <Homefooter/>
      <Artsec/>
+     <Mint/>
     </>
   )
 }
