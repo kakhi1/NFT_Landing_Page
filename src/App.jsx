@@ -1,6 +1,7 @@
 
 import './App.css'
 import Artsec from './components/Artsec'
+import Finalsection from './components/Finalsection'
 import Header from './components/Header'
 import Home from './components/Home'
 import Homefooter from './components/Homefooter'
@@ -14,6 +15,7 @@ function App() {
      <Homefooter/>
      <Artsec/>
      <Mint/>
+     <Finalsection/>
     </>
   )
 }

@@ -20,6 +20,8 @@ export default {
         mintround2:"url('./assets/mintround2.jpg')",
         mintround3:"url('./assets/mintround3.jpg')",
         mintround4:"url('./assets/mintround4.jpg')",
+        finalsecbg:"url('./assets/finalsecbg.jpg')",
+        finalsecbg2:"url('./assets/finalsecbg2.png')",
 
 
       }
