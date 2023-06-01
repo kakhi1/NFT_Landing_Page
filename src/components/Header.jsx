@@ -1,7 +1,7 @@
 import logo from "../assets/logo.png";
 const Header = () => {
   return (
-    <div className="font-text bg-white flex justify-between w-full h-[71px] lg:px-[70px] px-3 items-center border-x-2 border-t-2  border-dashed">
+    <div className="font-text bg-white flex justify-between w-full h-[71px] lg:px-[70px] px-3 items-center border-black border-x-4 border-t-4  border-dashed">
       <div className="gap-20 flex">
         <div className="w-[25.84px] h-[31.15px]">
           <img src={logo} alt="logo" />

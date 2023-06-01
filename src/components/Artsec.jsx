@@ -3,7 +3,7 @@ import icon2 from "../assets/icon2.png";
 import icon3 from "../assets/icon3.png";
 const Artsec = () => {
   return (
-    <div className="md:h-[974px] h-[1150px] bg-[#EDF2F4] flex flex-col font-text relative border-x-2 border-b-2  border-dashed">
+    <div className="md:h-[974px] h-[1150px] bg-[#EDF2F4] flex flex-col font-text relative border-black border-x-4 border-b-4  border-dashed">
       {/* logo */}
       <div className="w-[57px] h-[57px] absolute right-[20%] top-[20%] hidden md:flex">
         <div className="w-[57px] h-[57px] bg-black relative overflow-hidden ">

@@ -3,7 +3,7 @@ import { AiOutlineStar } from "react-icons/ai";
 import { IoEarthOutline } from "react-icons/io5";
 const Home = () => {
   return (
-    <div className="md:h-[1100px] h-[800px] sm:p-10 bg-[#EDF2F4] flex flex-col justify-around  gap-4 border-x-2  border-dashed">
+    <div className="md:h-[1100px] h-[800px] sm:p-10 bg-[#EDF2F4] flex flex-col justify-around  gap-4 border-x-4 border-black border-dashed">
       <div className="flex gap-10 items-center justify-center">
         <RiMoneyDollarCircleLine size={25} color="#FFC56F" />
         <AiOutlineStar size={25} color="#4A3AFF" />

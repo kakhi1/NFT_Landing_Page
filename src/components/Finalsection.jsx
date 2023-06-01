@@ -131,7 +131,7 @@ const Finalsection = () => {
         </div>
       </div>
       {/* ------------------3------------------- */}
-      <div className="w-full h-[920px]  border-black border-x-4 border-b-4 pt-24 border-dashed ">
+      <div className="w-full md:h-[920px] h-[1000px] border-black border-x-4 border-b-4 pt-24 border-dashed ">
         <div className="w-full h-[32px] flex justify-center items-center  ">
           <span className="w-[128px] flex justify-center items-center h-full font-semibold text-[14px] rounded-[7px] uppercase bg-[#E7EEFA] ">
             transform
@@ -171,7 +171,7 @@ const Finalsection = () => {
       </div>
 
       {/* ------------------4------------------ */}
-      <div className="h-[700px] flex justify-center items-center relative  border-black border-x-4 border-dashed">
+      <div className="md:h-[700px] h-[1000px] flex justify-center items-center relative  border-black border-x-4 border-dashed">
         <div
           className="w-[1390px] md:h-[552px] h-[600px]  bg-finalsecbg8 bg-cover bg-center flex 
                justify-center items-center"
