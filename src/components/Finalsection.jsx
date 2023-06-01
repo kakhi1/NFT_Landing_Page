@@ -1,7 +1,14 @@
+import figure from "../assets/figure.png";
+import figure2 from "../assets/figure2.png";
+import figure3 from "../assets/figure3.png";
+import logo from "../assets/logo.png";
+import { FaTelegramPlane } from "react-icons/fa";
+import { BsDiscord } from "react-icons/bs";
+import { TiSocialTwitter } from "react-icons/ti";
 const Finalsection = () => {
   return (
     <div className="font-text ">
-      {/* ---------------1------------------ */}
+      {/* ------------------1------------------ */}
       <div className="w-full h-[1161px] border-black border-4 border-dashed flex items-center justify-center">
         <div className="md:w-[75%] w-full md:ml-28 h-[892px] bg-finalsecbg bg-cover relative rounded-[60px] flex flex-col md:mb-14 items-end ">
           <div className="md:w-[504px] w-full h-[250px] z-30 md:absolute rounded-t-[60px] -left-[9%] bg-white top-[10%] flex flex-col ">
@@ -37,7 +44,7 @@ const Finalsection = () => {
           <div className="w-[79px] h-[79px] rounded-full mt-[30%] mr-[15%] bg-gradient-to-l from-[#FFC56F] to-[#FF7051]"></div>
         </div>
       </div>
-      {/* ---------------2------------------ */}
+      {/* ------------------2------------------ */}
       <div className="w-full md:h-[1100px] lg:h-[920px] h-[1800px] flex md:grid grid-cols-4 grid-rows-3 flex-col  border-black border-x-4 border-dashed">
         <div className="col-span-3 flex md:justify-center justify-start items-end max-md:h-[15%]">
           <div className="relative flex flex-row w-[50%]">
@@ -120,6 +127,133 @@ const Finalsection = () => {
             <div className="w-[230px]  h-[187px] rounded-3xl bg-[#E7EEFA] flex justify-center items-center mr-[20%] md:mr-0">
               <span className="font-semibold text-2xl">Sunport</span>
             </div>
+          </div>
+        </div>
+      </div>
+      {/* ------------------3------------------- */}
+      <div className="w-full h-[920px]  border-black border-x-4 border-b-4 pt-24 border-dashed ">
+        <div className="w-full h-[32px] flex justify-center items-center  ">
+          <span className="w-[128px] flex justify-center items-center h-full font-semibold text-[14px] rounded-[7px] uppercase bg-[#E7EEFA] ">
+            transform
+          </span>
+        </div>
+        <div className="flex justify-center items-center">
+          <div className="w-[1440px] bg-finalsecbg6 bg-cover bg-no-repeat bg-center rounded-[70px]  h-[600px] flex flex-col justify-between">
+            <div className="md:w-[70%] w-full h-[29%] bg-white rounded-ee-[70px] flex flex-row md:justify-between justify-around mt-2">
+              <div className="w-[16%] bg-no-repeat h-full  bg-finalsecbg7 hidden lg:flex">
+                {" "}
+              </div>
+              <div className="lg:w-[113px] w-[50px] lg:h-[113px]  h-[50px] bg-black relative overflow-hidden ">
+                <div className="lg:w-[113px] w-[50px] lg:h-[113px]  h-[50px] bg-white opacity-100 rounded-full absolute lg:left-14 lg:top-14 left-7 top-7"></div>
+                <div className="lg:w-[113px] w-[50px] lg:h-[113px]  h-[50px] bg-white opacity-100 rounded-full absolute lg:right-14 lg:-top-14 right-7 -top-7"></div>
+                <div className="lg:w-[113px] w-[50px] lg:h-[113px]  h-[50px] bg-white opacity-100 rounded-full absolute lg:top-14 lg:right-14 top-7 right-7"></div>
+                <div className="lg:w-[113px] w-[50px] lg:h-[113px]  h-[50px] bg-white opacity-100 rounded-full absolute lg:-top-14 lg:-right-14 -top-7 -right-7"></div>
+              </div>
+              <div>
+                <h1 className="font-semibold lg:text-6xl text-3xl">
+                  Authenticaly secure,
+                  <h1 className="text-[#4A3AFF]">sustainable</h1>
+                </h1>
+              </div>
+            </div>
+            <div className="w-full h-[25%] flex justify-end">
+              <span className="font-regular text-lg lg:w-[22%] w-full md:mr-5 text-left max-lg:bg-white  h-full">
+                Smaller currencies may often appear to have a lower carbon
+                footprint, but that may simply be because there are fewer
+                transactions.
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="w-full flex justify-end pr-20">
+          <div className="w-[96px] h-[96px] rounded-full  bg-gradient-to-l from-[#FFC56F] to-[#FF7051]"></div>
+        </div>
+      </div>
+
+      {/* ------------------4------------------ */}
+      <div className="h-[700px] flex justify-center items-center relative  border-black border-x-4 border-dashed">
+        <div
+          className="w-[1390px] md:h-[552px] h-[600px]  bg-finalsecbg8 bg-cover bg-center flex 
+               justify-center items-center"
+        >
+          <div className="w-[70%] gap-5 flex flex-col items-center z-40 ">
+            <h1 className="font-semibold text-white text-7xl">
+              Join Us to make The world a better place
+            </h1>
+            <span className="font-medium text-[18px] text-white w-[70%]">
+              Smaller currencies may often appear to have a lower carbon
+              footprint, but that may simply be because there are fewer
+              transactions.
+            </span>
+            <button className="w-[163px] h-[52px] bg-white text-xl rounded-lg font-semibold text-designColor">
+              {" "}
+              Contact Us
+            </button>
+          </div>
+        </div>
+        <img
+          src={figure}
+          alt="figure"
+          className="absolute bottom-0 md:right-[30%] right-0 z-30"
+        />
+        <img
+          src={figure2}
+          alt="figure"
+          className="absolute bottom-[15%] md:right-[14%] right-0 z-30"
+        />
+        <img
+          src={figure3}
+          alt="figure"
+          className="absolute bottom-[30%] md:right-[8%] right-0 z-30"
+        />
+        <div className="w-full h-[30%] absolute  flex justify-between z-10">
+          <div className=" md:w-[20%] w-[30%] flex justify-around">
+            <div className="w-[60px] h-[60px] rounded-full bg-gradient-to-l from-[#EECAFF] to-[#691EE2] "></div>
+            <div className="w-[130px] h-[130px] rounded-full bg-gradient-to-l from-[#EECAFF] to-[#691EE2] mt-10"></div>
+          </div>
+          <div className="w-[192px] h-[192px] rounded-full bg-gradient-to-l from-[#EECAFF] to-[#691EE2] "></div>
+        </div>
+      </div>
+      {/* ------------------FOOTER------------------ */}
+      <div className="h-[700px] border-black border-x-4 border-b-4 border-dashed flex justify-center items-center">
+        <div className="w-[1369px] md:h-[532px] h-[720px] lg:bg-finalsecbg9 max-lg:bg-[#EFE4FC] flex flex-col justify-between ">
+          <div className="w-full h-[84%] flex md:flex-row flex-col  ">
+            <div className="md:w-[12%] w-full  md:h-full h-[20%] flex md:flex-col flex-row items-center justify-between">
+              <div className="w-[80px] h-[96px] md:mt-10">
+                <img src={logo} alt="logo" className="w-full h-full" />
+              </div>
+              <div className="h-[80%] flex md:flex-col flex-row justify-end gap-10 items-start w-full px-10">
+                <FaTelegramPlane size={30} />
+                <BsDiscord size={30} />
+                <TiSocialTwitter size={30} />
+              </div>
+            </div>
+            <div className="md:w-[88%] w-full md:h-full max-md:gap-5 flex md:flex-row flex-col md:items-start items-center md:mt-20 text-left justify-around">
+              <div className="flex flex-col">
+                <h1 className="font-medium text-[24px]">Projects</h1>
+                <h1 className="font-medium text-[24px]">Marketplace</h1>
+                <h1 className="font-medium text-[24px]">Governance</h1>
+                <h1 className="font-medium text-[24px]">Discord</h1>
+              </div>
+              <div className="flex flex-col">
+                <h1 className="font-medium text-[24px]">Newsletter</h1>
+                <h1 className="font-medium text-[24px]">LinkedIn</h1>
+                <h1 className="font-medium text-[24px]">Youtube </h1>
+                <h1 className="font-medium text-[24px]">Instagram</h1>
+                <h1 className="font-medium text-[24px]">Twitter</h1>
+              </div>
+              <div className="flex flex-col">
+                <h1 className="font-medium text-[24px]">Contract</h1>
+                <h1 className="font-medium text-[24px]">Story Archive</h1>
+                <h1 className="font-medium text-[24px]">Google</h1>
+                <h1 className="font-medium text-[24px]">Alphabet</h1>
+              </div>
+            </div>
+          </div>
+          <div className="w-full h-[10%] flex justify-center">
+            <span className="font-medium text-[22px] ">
+              All Rights Reserved 2023
+            </span>
           </div>
         </div>
       </div>

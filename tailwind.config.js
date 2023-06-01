@@ -22,6 +22,10 @@ export default {
         finalsecbg3: "url('./assets/finalsecbg3.jpg')",
         finalsecbg4: "url('./assets/finalsecbg4.png')",
         finalsecbg5: "url('./assets/finalsecbg5.png')",
+        finalsecbg6: "url('./assets/Union2.svg')",
+        finalsecbg7: "url('./assets/finalsecbg7.png')",
+        finalsecbg8: "url('./assets/finalsecbg8.png')",
+        finalsecbg9: "url('./assets/finalsecbg9.png')",
       },
       maxWidth: {
         "screen-md": "768px",
